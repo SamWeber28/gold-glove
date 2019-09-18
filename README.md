@@ -1,5 +1,5 @@
 # gold-glove
-SQL Server query pulling various defensive metrics used in a model to predict 2019 gold glove winner. 
+SQL Server query pulling various defensive metrics used in a model to predict 2019 gold glove winner (excludes pitchers and catchers-only).
 
 select f.Name, f.UZR, w.age, w.fraa, s.Range_and_Positioning,s.GFP_DME, s.Total_Runs_Saved
 from fangraphs..fangraphs_defense_2019 f
